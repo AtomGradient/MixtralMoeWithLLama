@@ -1,11 +1,19 @@
 
 #!/bin/sh
-wget=`which wget` 
-if [[ -n "$wget" ]]
+awget=`which wget` 
+if [[ -n "$awget" ]]
 then
     echo "wget exist! will start downloading\n"
 else
     echo "wget command is not exist!please use  [ brew install wget ] to install\n"
+fi
+
+acmake=`which cmake` 
+if [[ -n "$acmake" ]]
+then
+    echo "cmake exist!\n"
+else
+    echo "cmake command is not exist! please use  [ brew install cmake ] to install\n"
 fi
 
 if ! [ -f ./mixtral-8x7b-instruct-v0.1.Q2_K.gguf ]; then
