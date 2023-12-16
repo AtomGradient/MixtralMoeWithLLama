@@ -7,10 +7,10 @@ git clone git@github.com:AtomGradient/MixtralMoeWithLLama.git
 cd MixtralMoeWithLLama
 # first install relative dependencies
 ./install.sh # this command may takes a little long time cause downloading large file from 😊huggingface
-# after all above is down,run
+# after all above is done,run
 ./run.sh
-
 ```
+<img src="./Screenshot.png" alt="image" width="50%" height="auto">
 
 ## WE ARE HIRING
 refer here: https://daxiang.feishu.cn/docx/LluCd7J38o9U5pxN3kdcpSh6nEh
