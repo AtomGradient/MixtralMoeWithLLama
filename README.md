@@ -2,6 +2,8 @@
 
 A local llama.cpp tool for runing Mixtral 8X7B Instruct v0.1 - GGUF with Q2-K on macOS
 
+It is recommended to have at least 32GB of unified memory
+
 ```bash
 git clone --recursive git@github.com:AtomGradient/MixtralMoeWithLLama.git
 cd MixtralMoeWithLLama
