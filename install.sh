@@ -6,7 +6,7 @@ then
     echo "wget exist! will start downloading\n"
 else
     echo "wget command is not exist!please use  [ brew install wget ] to install\n"
-    exist 0
+    exit 0
 fi
 
 acmake=`which cmake` 
@@ -15,7 +15,7 @@ then
     echo "cmake exist!\n"
 else
     echo "cmake command is not exist! please use  [ brew install cmake ] to install\n"
-    exist 0
+    exit 0
 fi
 
 if ! [ -f ./mixtral-8x7b-instruct-v0.1.Q2_K.gguf ]; then
