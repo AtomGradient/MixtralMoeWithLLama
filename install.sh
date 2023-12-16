@@ -15,11 +15,11 @@ else
     echo "Mixtral Moe Q2_K GGUF already exist!😊\n"
 fi
 
-echo "Now starts install LLama.cpp\nPlease wait for a while"
+echo "Now starts install LLama.cpp\nPlease wait for a while\n"
 echo `pwd`
-cd llama.cpp
+pushd llama.cpp
 echo `pwd`
 mkdir build
-cd build
+pushd build
 cmake ..
 cmake --build . --config Release

@@ -1,0 +1,1 @@
+./llama.cpp/build/bin/main --color -m ./mixtral-8x7b-instruct-v0.1.Q2_K.gguf -t 8 -b 512 -n -1 --temp 0 -ngl 999 -ins -c 12288 -a 'Quvanba'
