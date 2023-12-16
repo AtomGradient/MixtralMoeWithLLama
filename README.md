@@ -6,7 +6,8 @@ A local llama.cpp tool for runing Mixtral 8X7B Instruct v0.1 - GGUF with Q2-K on
 git clone --recursive git@github.com:AtomGradient/MixtralMoeWithLLama.git
 cd MixtralMoeWithLLama
 # first install relative dependencies
-./install.sh # this command may takes a little long time cause downloading large file from 😊huggingface
+# this command may takes a little long time cause downloading large file from 😊huggingface
+./install.sh
 # after all above is done,run
 ./run.sh
 ```
